@@ -1,17 +1,18 @@
 ## python 代码生成器
-###1.目录说明
+### 1.目录说明
+
 `Output/` 输出目录
 `Tpl/`  模板目录
 `generate.py` 生成器
 `setting.json` 生成器配置文件
 
-###2.使用说明
+### 2.使用说明
 根据setting.json里面的配置文件生成代码
 
     python generate.py -i setting.json 
 
 
-####参数说明
+#### 参数说明
 
     C:\python_project\cyd-scrapy\web\generate-scrapy>python generate.py -h
     usage: generate.py [-h] [--input [INPUT]]
@@ -23,7 +24,7 @@
     --input [INPUT], -i [INPUT]
 
 
-###3.配置文件说明
+### 3.配置文件说明
 | 键值  |  描述 |
 |---|---|
 |  name |  配置文件名称 |
@@ -32,7 +33,7 @@
 |  list |  代码生成器的主要内容 |
 说明:list里面的url,name等对应模板里面的${url},${name}
 
-###配置文件例子
+### 配置文件例子
 ```json
 {
     "name": "demo",
