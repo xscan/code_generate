@@ -1,0 +1,24 @@
+{
+    "name":"demo",
+    "tpl":"./Tpl/scrapy.tpl",
+    "output":"./Output/",
+    "scrapylist":[
+        {
+        "name":"sft",
+        "host":"sft.hunan.gov.cn",
+        "url":"http://sft.hunan.gov.cn/xxgk_71079/tzgg"
+        
+        },
+        {
+            "name":"czt",
+            "host":"czt.hunan.gov.cn",
+            "url":"http://czt.hunan.gov.cn/xxgk/tzgg"
+            }
+            ,
+            {
+                "name":"rst",
+                "host":"rst.hunan.gov.cn",
+                "url":"http://rst.hunan.gov.cn/xxgk/tzgg/"
+            }  
+    ]
+}
