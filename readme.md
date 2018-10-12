@@ -1,10 +1,12 @@
 ## python 代码生成器
 ### 1.目录说明
+| 目录/文件  |  描述 |
+|---|---|
+|  Output/ |  输出目录 |
+|  Tpl/ |  模板目录 |
+|  generate.py |  生成器 |
+|  setting.json |  生成器配置文件 |
 
-`Output/` 输出目录
-`Tpl/`  模板目录
-`generate.py` 生成器
-`setting.json` 生成器配置文件
 
 ### 2.使用说明
 根据setting.json里面的配置文件生成代码
